@@ -1,0 +1,63 @@
+.banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("../img/portada3.jpeg")
+}
+
+.fondo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(11, 78, 11, 0.6);
+    color: #fff;
+    margin: auto;
+}
+
+.fondo hr{
+    border-top: 1px solid#fff;
+}
+
+.fondo h1{
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+
+.fondo p{
+    font-size: 4vw;
+    margin-bottom: 10px;
+}
+ .fondo_link{
+    margin: 15px;
+    position: relative;
+ }
+
+.fondo_link a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 1px;
+    margin-bottom: 3px;
+    width: 100px;
+    
+ }
+ .container{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:url("../img/fondo.avif")
+ }
+ #banner{
+    width: 200px;
+ }
+
+ 
